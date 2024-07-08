@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const puppeteer = require('puppeteer');
-const chrome = require("chrome-aws-lambda")
+// const chrome = require("chrome-aws-lambda")
 
 router.post('/', async (req, res) => {
 
@@ -46,7 +46,7 @@ router.post('/', async (req, res) => {
     async function getGoogleRankingForWebsite(keyword, website) {
    
       const browser = await puppeteer.launch({
-        executablePath:await chrome.executablePath,
+        // executablePath:await chrome.executablePath,
         headless: "new",
         args: ['--no-sandbox', '--disable-setuid-sandbox']
       });
