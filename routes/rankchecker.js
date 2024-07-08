@@ -46,6 +46,7 @@ router.post('/', async (req, res) => {
     async function getGoogleRankingForWebsite(keyword, website) {
 
       const browser = await puppeteer.launch({
+        executablePath: "/usr/local/bin/chromium",
         headless: "new",
         args: ['--no-sandbox', '--disable-setuid-sandbox']
       });
