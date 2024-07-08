@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "install-chrome-deps.sh",
+      "src": "Dockerfile",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "dist"
