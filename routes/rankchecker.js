@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
-const puppeteer = require('puppeteer');
+// const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer=core');
 const chrome = require("chrome-aws-lambda")
 
 router.post('/', async (req, res) => {

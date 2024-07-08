@@ -1467,7 +1467,7 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz"
   integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
-puppeteer-core@22.12.1:
+puppeteer-core@^22.12.1, puppeteer-core@22.12.1:
   version "22.12.1"
   resolved "https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-22.12.1.tgz"
   integrity sha512-XmqeDPVdC5/3nGJys1jbgeoZ02wP0WV1GBlPtr/ULRbGXJFuqgXMcKQ3eeNtFpBzGRbpeoCGWHge1ZWKWl0Exw==
