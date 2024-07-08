@@ -46,7 +46,7 @@ router.post('/', async (req, res) => {
     async function getGoogleRankingForWebsite(keyword, website) {
 
       const browser = await puppeteer.launch({
-        headless: true,
+        headless: "new",
         args: ['--no-sandbox', '--disable-setuid-sandbox']
       });
 
