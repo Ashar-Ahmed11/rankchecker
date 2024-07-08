@@ -2,10 +2,10 @@
   "name": "website-rank-checker",
   "version": "1.0.0",
   "description": "The best website rank checker developed by metatech-official.co",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "Ashar Ahmed",
   "license": "ISC",
