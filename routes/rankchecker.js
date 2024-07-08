@@ -1,6 +1,5 @@
 const express = require('express')
 const router = express.Router()
-const ranking = require('google-ranking')
 const puppeteer = require('puppeteer');
 
 
