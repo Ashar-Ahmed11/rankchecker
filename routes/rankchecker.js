@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 // const puppeteer = require('puppeteer');
-const puppeteer = require('puppeteer-core');
+const puppeteer = require('puppeteer');
 const chromium = require('chromium');
 
 router.post('/', async (req, res) => {
